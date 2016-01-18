@@ -8,6 +8,9 @@ Tool is compatible with python v3.3+<br />
 $ git clone https://github.com/capJavert/renamer.git<br />
 $ cd renamer<br />
 $ pip install --editable .<br />
+<br />
+After install you can use script as: <br />
+<b>$ renamer --change=fizz --to=buzz</b>
 </p>
 <h3>Usage</h3>
 <p>
