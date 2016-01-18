@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='renamer',
-    version='0.1',
+    version='0.2',
     summary='shell tool',
     homepage='https://github.com/capJavert/renamer',
     author='capJavert',

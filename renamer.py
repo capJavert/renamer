@@ -4,11 +4,7 @@ __author__ = '@capJavert'
 
 import click
 # encoding=utf8
-import sys
 import os
-
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 @click.command()
 @click.option('--path', default=".", help='Path to directory where files/directories you want renamed are located. Defaults to current directory if not set. ')
@@ -16,18 +12,18 @@ sys.setdefaultencoding('utf8')
 @click.option('--to', default="", help='String you want to replace --change string to.')
 def main(path, change, to):
     if change=="" or to=="":
-        print "You are missing --change or --to params. Use --help for more info."
+        print("You are missing --change or --to params. Use --help for more info.")
         return
 
     #length = len(change)
-    print "Files renamed: "
+    print("Files renamed: ")
     renamed_files_counter = 0
     for filename in os.listdir(path):
         if filename.find(change, 0, len(filename))!=-1:
             renamed_files_counter=renamed_files_counter+1
-            print filename.replace(change, to)
+            print(filename.replace(change, to))
             os.rename(path+"/"+filename, path+"/"+filename.replace(change, to))
 
     if renamed_files_counter==0:
-        print "No files where matched."
+        print("No files where matched.")
 main()

@@ -3,10 +3,7 @@
 <h3>Install</h3>
 <p>
 You will need pip tool for python to install renamer into your shell environment.<br />
-If you have python 3.4+ you don't have to install pip.<br />
-If you are running lower version you can find instructions on how to install pip here: <a href="http://www.pip-installer.org/en/latest/installing.html">http://www.pip-installer.org/en/latest/installing.html</a><br />
-<br />
-After you install pip:<br />
+Tool is compatible with python v3.3+<br />
 <br />
 $ git clone https://github.com/capJavert/renamer.git<br />
 $ cd renamer<br />
