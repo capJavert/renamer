@@ -1,6 +1,6 @@
-__author__ = '@capJavert'
-
 from setuptools import setup
+
+__author__ = '@capJavert'
 
 setup(
     name='renamer',
