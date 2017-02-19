@@ -4,7 +4,7 @@ __author__ = '@capJavert'
 
 setup(
     name='renamer',
-    version='0.2',
+    version='0.3',
     summary='shell tool',
     homepage='https://github.com/capJavert/renamer',
     author='capJavert',
