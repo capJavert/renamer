@@ -5,4 +5,6 @@ python:
 # command to install dependencies
 install: "pip install --editable ."
 # command to run tests
-script: "pytest"
+script:
+  - "if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then py.test; fi"
+  - "if [[ $TRAVIS_PYTHON_VERSION == 3.5 ]]; then pytest; fi"
