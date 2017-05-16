@@ -1,4 +1,4 @@
-<h1>Renamer</h1>![](https://travis-ci.org/capJavert/renamer.svg?branch=master)
+<h1>Renamer</h1>[![Build Status](https://travis-ci.org/capJavert/renamer.svg?branch=master)](https://travis-ci.org/capJavert/renamer)
 <h2>Simple shell tool for file renaming written in python</h2>
 <h3>Install</h3>
 <p>
